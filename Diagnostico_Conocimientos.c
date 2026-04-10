@@ -2,7 +2,7 @@
 
 int main()
 {
-    float nume1=0, num2=0, prome=0;
+    float nume1=0, nume2=0, prome=0;
 
     do
     {
@@ -12,11 +12,11 @@ int main()
 
     do
     {
-        printf("\nIngrese el numero 2: "); scanf("%f",&num2);
+        printf("\nIngrese el numero 2: "); scanf("%f",&nume2);
 
-    }while(num2 < 0 || num2 > 20);
+    }while(nume2 < 0 || nume2 > 20);
 
-    prome= (nume1+num2)/2;
+    prome= (nume1+nume2)/2;
 
     if(prome>=11 && prome<=13.99)
     {
