@@ -21,13 +21,13 @@ int main()
     if(prome>=11 && prome<=13.99)
     {
         printf("\nSupletorios");
-        printf("\nPROMEDIO: %.2f", prome);
+        printf("\nPromedio: %.2f", prome);
     }
 
     else if (prome<11)
     {
         printf("\nREPROBADO");
-        printf("\nPROMEDIO: %.2f", prome);
+        printf("\nPromedio: %.2f", prome);
     }
     else
     {
